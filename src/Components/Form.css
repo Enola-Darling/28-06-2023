@@ -1,3 +1,14 @@
+.modal_Form{
+    background-color: cadetblue;
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+}
+.Form {
+
+    margin: 30px;
+    padding: 30px;
+}
 .inputStyle{
     margin-left: 10px;
 }
