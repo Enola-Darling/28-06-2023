@@ -3,7 +3,7 @@ import "./Button.css";
 
 const Button = () => {
     return (
-      <button type='submit'>Sign in</button>
+      <button className="Button" type='submit'>Sign in</button>
     );
   };
   

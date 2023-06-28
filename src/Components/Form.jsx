@@ -1,3 +1,4 @@
+import Button from "../button";
 import "./Form.css";
 
 import { useState } from "react";
@@ -17,7 +18,7 @@ function MyForm() {
             onChange={(e) => setName(e.target.value)}
           />
         </label>
-        <label className="Label">Password:
+        <label className="Label_password">Password:
           <input className="inputStyle"
             type="text" 
             value={name}
@@ -25,6 +26,7 @@ function MyForm() {
             onChange={(e) => setName(e.target.value)}
           />
         </label>
+        <Button className="Button"/>
       </form>
       </div>
     )
